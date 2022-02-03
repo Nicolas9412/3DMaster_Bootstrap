@@ -76,3 +76,65 @@ body{
 
 
 
+/*** CATALOGO IMPRESORA 3D ***/
+
+.rangos{
+    width: fit-content;
+}
+
+.form-check input{
+    width: 25px;
+    height: 25px;
+}
+
+.form-check label{
+    line-height: 30px;
+    margin-left: 0.5em;
+    font-size: 18px;
+}
+
+.form-check{
+    margin-left: 3em;
+}
+
+.titulo_categoria{
+    margin: 1em 0;
+}
+
+@media (max-width: 1173px){
+    .titulo_principal{
+        font-size: 24px;
+    }
+}
+
+.catalogo-impresora3D_aside{
+    border-right: solid #000 3px;
+    border-bottom: solid #000 3px;
+}
+
+.catalogo-impresora3D_main{
+    border-bottom: solid #000 3px;
+}
+
+.caja_precio{
+    height: 12vh;;
+}
+
+.catalogo-impresora3D_aside_mobile{
+    background-color: #75a478;
+}
+
+.accordion-header, .accordion-button{
+    background-color: #a5d6a7;
+    color: #000
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #a5d6a7;
+    box-shadow: none;
+  }
+.accordion-item{
+    background-color: #d7ffd9;
+}
+  
