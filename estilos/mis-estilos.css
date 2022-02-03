@@ -1,0 +1,78 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.bg-navbar{
+    background-color: #283593;
+}
+
+.logo-tamano{
+    width: 35px;
+    height: 35px;
+}
+
+.dropdown-menu{
+    background-color: #5f5fc4;
+    padding: 0;
+}
+
+.dropdown-item{
+    padding: 10px 20px;
+    color: #FFF;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #FFF;
+    background-color: #001064;
+}
+
+.buscador{
+    margin: auto;
+}
+
+.botones-navegador{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 1200px) {
+    .carousel_imagen{
+        height: calc(100vh - 65.5px);
+    }
+}
+
+.subtitulo{
+    margin-left: 2em;
+}
+
+.subtitulo-card{
+    font-size: 15px;
+    text-align: center;
+}
+
+.input_newletter{
+    width: 65%;
+}
+
+.img_autor{
+    bottom: 0.75em;
+}
+
+@media (max-width: 1200px){
+    .footer-menu-fs{
+        font-size: 16px;
+    }
+}
+
+.footer_redesSociales_mobile{
+    margin-top: 1.5em !important;
+}
+
+.footer_autor_img_mobile{
+    position: relative;
+    top: 0;
+}
+
+
+
