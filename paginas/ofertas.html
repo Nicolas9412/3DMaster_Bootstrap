@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagenes/impresion-3d.ico" type="image/x-icon">
+    <title>3DMaster</title>
+    <!-- Conexión con Bootstrap -->
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.css">
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <!-- Normalize -->
+    <link rel="stylesheet" href="../estilos/normalize.css">
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="../estilos/mis-estilos.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Bootstrap js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand col-lg-1 ms-3" href="../index.html"><img src="../imagenes/impresion-3d.ico" class="img-fluid logo-tamano" alt="Logo de 3DMaster"></a>
+          <form class="d-flex d-lg-none buscador">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col-lg-11 botones-navegador">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorias
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./catalogo-impresoras-3D.html">Impresoras 3D</a></li>
+                      <li><a class="dropdown-item" href="#">Insumos 3D</a></li>
+                      <li><a class="dropdown-item" href="#">Respuestos 3D</a></li>
+                    </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li>
+                <form class="d-flex buscador d-lg-flex d-none">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mi cuenta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="container">
+            <h1 class="my-5 text-decoration-underline">Ofertas</h1>
+            <div class="row mt-5 ms-5">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/creality/impresora3D_creality_ender3pro.png">
+                            <div class="card-body">
+                            <h4 class="card-title">$ 41.109</h4>
+                            <p class="card-text text-capitalize">impresora 3D creality ender 3 pro DIY KIT FDM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/creality/impresora3D_creality_ender6.png">
+                            <div class="card-body">
+                            <h4 class="card-title">$ 97.147</h4>
+                            <p class="card-text text-capitalize">impresora 3D creality ender 6 DIY KIT FDM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/creality/impresora3D_creality_ender7.png">
+                            <div class="card-body">
+                            <h4 class="card-title">$ 119.865</h4>
+                            <p class="card-text text-capitalize">impresora 3D creality ender 7 FDM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/creality/impresora3D_creality_curadora.png">
+                        <div class="card-body">
+                            <h4 class="card-title">$ 36.990</h4>
+                            <p class="card-text text-capitalize">lavadora curadora de resina creality UW-02</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/artillery/impresora3D_artillery_genius.png">
+                        <div class="card-body">
+                        <h4 class="card-title">$ 74.900</h4>
+                        <p class="card-text text-capitalize">impresora 3D artillery genius 220x220x250mm</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/artillery/impresora3D_artillery_hornet.png">
+                        <div class="card-body">
+                        <h4 class="card-title">$ 39.131</h4>
+                        <p class="card-text text-capitalize">impresora 3D artillery hornet 220x220x250mm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/Anycubic/impresora3D_anycubic_photon.png">
+                        <div class="card-body">
+                            <h4 class="card-title">$ 34.499</h4>
+                            <p class="card-text text-capitalize">Impresora 3D anyrubic photon zero DLP resina</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                <div class="card">
+                    <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/hellbot/impresora3D_hellbot_apolo.png">
+                    <div class="card-body">
+                        <h4 class="card-title">$ 70.290</h4>
+                        <p class="card-text text-capitalize">impresora 3D hellbot apolo DLP resina</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/creality/impresora3D_creality_cr-200b.png">
+                        <div class="card-body">
+                        <h4 class="card-title">$ 127.699</h4>
+                        <p class="card-text text-capitalize">Impresora 3d Creality Cr-200b Industrial Minimalista</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/creality/impresora3D_creality_cr-5.png">
+                        <div class="card-body">
+                        <h4 class="card-title">$ 196.699</h4>
+                        <p class="card-text text-capitalize">Impresora 3d Creality Cr-5 Pro Estabilidad Mejorada</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/creality/impresora3D_creality_printmill.png">
+                        <div class="card-body">
+                        <h4 class="card-title">$ 205.642</h4>
+                        <p class="card-text text-capitalize">Impresora 3d Industrial Cr-30 Printmill Eje Z Infinito</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                <div class="card">
+                    <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/creality/impresora3D_creality_cr-5060.png">
+                    <div class="card-body">
+                        <h4 class="card-title">$ 838.000</h4>
+                        <p class="card-text text-capitalize">Impresora 3d Creality Cr-5060 Pro Industrial 500x500x600mm</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/creality/impresora3D_creality_sermoonn.png">
+                        <div class="card-body">
+                        <h4 class="card-title">$ 133.520</h4>
+                        <p class="card-text text-capitalize">Impresora 3d Creality Sermoon D1 Industrial 280x260x310mm</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/Dfrobot/impresora3D_Dfrobot_OverLordPro.png">
+                        <div class="card-body">
+                        <h4 class="card-title">$ 257.969</h4>
+                        <p class="card-text text-capitalize">impresora 3D dfrobot overLord pro+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/hellbot/impresora3D_hellbot_hidra.png">
+                        <div class="card-body">
+                            <h4 class="card-title">$ 84.594</h4>
+                            <p class="card-text text-capitalize">Impresora 3d Hellbot Hidra Doble Extrusor Independiente Fdm</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/impresora3D/artillery/impresora3D_artillery_sidewinder_x2.png">
+                        <div class="card-body">
+                            <h4 class="card-title">$ 111.320</h4>
+                            <p class="card-text text-capitalize">Impresora 3d Artilery Sidewinder X2</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/insumos3D/filamentos/filamento_azul.png">
+                        <div class="card-body">
+                          <h4 class="card-title">$ 1.500</h4>
+                          <p class="card-text text-capitalize">Filamento 3D PLA 1.75mm Grilon3 azul 1kg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/insumos3D/filamentos/filamento_blanco.png">
+                        <div class="card-body">
+                          <h4 class="card-title">$ 1.500</h4>
+                          <p class="card-text text-capitalize">Filamento 3D PLA 1.75mm Grilon3 blanco 1kg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/insumos3D/filamentos/filamento_negro.png">
+                        <div class="card-body">
+                          <h4 class="card-title">$ 1.500</h4>
+                          <p class="card-text text-capitalize">Filamento 3D PLA 1.75mm Grilon3 negro 1kg</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                  <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="../imagenes/insumos3D/filamentos/filamento_rojo.png">
+                      <div class="card-body">
+                        <h4 class="card-title">$ 1.500</h4>
+                        <p class="card-text text-capitalize">Filamento 3D PLA 1.75mm Grilon3 rojo 1kg</p>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/insumos3D/filamentos/filamento_rosa.png">
+                        <div class="card-body">
+                          <h4 class="card-title">$ 1.500</h4>
+                          <p class="card-text text-capitalize">Filamento 3D PLA 1.75mm Grilon3 rosa 1kg</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/insumos3D/filamentos/filamento_verde.png">
+                        <div class="card-body">
+                          <h4 class="card-title">$ 1.500</h4>
+                          <p class="card-text text-capitalize">Filamento 3D PLA 1.75mm Grilon3 verde 1kg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                    <div class="card">
+                        <img class="img-fluid" alt="100%x280" src="../imagenes/insumos3D/filamentos/filamento_violeta.png">
+                        <div class="card-body">
+                            <h4 class="card-title">$ 1.500</h4>
+                            <p class="card-text text-capitalize">Filamento 3D PLA 1.75mm Grilon3 violeta 1kg</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+                  <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="../imagenes/insumos3D/filamentos/filamento_amarillo.png">
+                      <div class="card-body">
+                        <h4 class="card-title">$ 1.500</h4>
+                        <p class="card-text text-capitalize">Filamento 3D PLA 1.75mm Grilon3 amarillo 1kg</p>
+                      </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+        
+      </main>
+
+      <footer class="d-lg-block d-none">
+        <hr class="my-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12 d-flex">
+            <p class="col-6 lead footer-menu-fs m-auto">
+              Av Colon 252 Centro Cordoba
+              Lunes a viernes 08:00 a 18:00
+              tel 0351-2345678
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <div class="form-group d-flex flex-column">
+                  <label class="col-11 lead text-center m-auto footer-menu-fs " for="newsletter">Registrate y enterate de nuestras promociones antes que nadie!</label>
+                  <div class="row col-12 mt-2">
+                    <input type="text" placeholder="usuario@gmail.com..." name="" id="" class="form-control offset-2 input_newletter" placeholder="" aria-describedby="helpId">
+                    <button type="button" class="btn d-inline-block col-2"><img class="img-fluid" src="../imagenes/pointer.png" alt="aceptar"></button>
+                  </div>
+                </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                <img class="img-fluid d-block m-auto" src="../imagenes/data-fiscal.png" alt="data fiscal">
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12 d-flex">
+            <ul class="col-6 list-inline m-auto">
+              <li><a class="lead text-decoration-none footer-menu-fs text-dark" href="#">¿Como comprar?</a></li>
+              <li><a class="lead text-decoration-none footer-menu-fs text-dark" href="#">Preguntas Frencuentes</a></li>
+              <li><a class="lead text-decoration-none footer-menu-fs text-dark" href="#">¡ Contactanos !</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12 row align-content-end">
+            <div class="row justify-content-center ">
+              <p class="lead col-5 text-end footer-menu-fs">Diseño web</p>
+              <img class="col-2 img-fluid position-relative img_autor" src="../imagenes/web-design.png" alt="autor">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12 row align-content-center">
+            <div class="row justify-content-center">
+                <img class="col-3" src="../imagenes/instagram.png" alt="instagram">
+                <img class="col-3" src="../imagenes/facebook.png" alt="facebook">
+                <img class="col-3" src="../imagenes/whatsapp.png" alt="whatsapp">
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <footer class="d-lg-none">
+        <hr class="my-5">
+        <div class="row">
+
+          <div class="row flex-column">
+            <p class="col-12 text-center lead footer-menu-fs m-auto">
+              Av Colon 252 Centro Cordoba
+            </p>
+            <p class="col-12 text-center lead footer-menu-fs m-auto">
+              Lunes a viernes 08:00 a 18:00
+            </p>
+            <p class="col-12 text-center lead footer-menu-fs m-auto">
+              tel 0351-2345678
+            </p>
+          </div>
+
+          <div class="mt-3">
+                <div class="form-group d-flex flex-column">
+                  <label class="col-12 lead text-center m-auto footer-menu-fs " for="newsletter">Registrate y enterate de nuestras promociones antes que nadie!</label>
+                  <div class="row col-12 mt-2">
+                    <input type="text" placeholder="usuario@gmail.com..." name="" id="" class="form-control offset-2 input_newletter" placeholder="" aria-describedby="helpId">
+                    <button type="button" class="btn d-inline-block col-2"><img class="img-fluid" src="../imagenes/pointer.png" alt="aceptar"></button>
+                  </div>
+                </div>
+          </div>
+          
+        </div>
+        <div class="row my-4">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-12 d-flex m-auto">
+            <ul class="col-6 list-inline m-auto text-center">
+              <li><a class="lead text-decoration-none footer-menu-fs text-dark" href="#">¿Como comprar?</a></li>
+              <li><a class="lead text-decoration-none footer-menu-fs text-dark" href="#">Preguntas Frencuentes</a></li>
+              <li><a class="lead text-decoration-none footer-menu-fs text-dark" href="#">¡ Contactanos !</a></li>
+            </ul>
+          </div>
+          <div class="row align-content-end mt-5 order-last">
+            <div class="row justify-content-center w-100">
+              <p class="lead col-12 text-center footer-menu-fs">
+                 Diseño web 
+                 <img class="col-2 img-fluid position-relative img_autor footer_autor_img_mobile" src="../imagenes/web-design.png" alt="autor">
+              </p>
+            </div>
+          </div>
+          <div class="row p-0 m-0 footer_redesSociales_mobile">
+            <div class="row justify-content-center w-100">
+                <img class="col-2" src="../imagenes/instagram.png" alt="instagram">
+                <img class="col-2" src="../imagenes/facebook.png" alt="facebook">
+                <img class="col-2" src="../imagenes/whatsapp.png" alt="whatsapp">
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </body>
+</html>

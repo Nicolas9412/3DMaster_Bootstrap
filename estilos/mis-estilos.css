@@ -137,4 +137,9 @@ body{
 .accordion-item{
     background-color: #d7ffd9;
 }
-  
+
+/*** NOSOTROS ***/
+
+.nosotros_parrafo{
+    text-align: justify;
+}
