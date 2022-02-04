@@ -157,3 +157,22 @@ body{
 .parrafos_servicios{
     text-align: justify;
 }
+
+/*** MI CUENTA ***/
+
+.a__quieresRegistrarte{
+    width: fit-content;
+}
+
+@media (max-width: 1199px){
+    .a__quieresRegistrarte{
+        font-size: 20px !important;
+    }
+    .a__olvidasteContraseña{
+        font-size: 20px !important;
+    }
+
+}
+
+
+}
