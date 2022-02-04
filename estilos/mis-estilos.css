@@ -143,3 +143,17 @@ body{
 .nosotros_parrafo{
     text-align: justify;
 }
+
+/*** SERVICIOS ***/
+
+.alto_video{
+    height: 30vh;
+}
+
+.alto_img{
+    height: 30vh;
+}
+
+.parrafos_servicios{
+    text-align: justify;
+}
